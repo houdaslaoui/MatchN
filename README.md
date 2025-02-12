@@ -24,6 +24,9 @@ MatchN is a turn-based card game where players pass and discard cards to form **
    git clone https://github.com/houdaslaoui/MatchN
    cd MatchN
 2. **Compile the game:**
-   javac MatchN.java
-3. **Run the game:**
-   java MatchN 
+   ```sh
+   javac *.java
+4. **Run the game:**
+   ```sh
+   java Main
+
