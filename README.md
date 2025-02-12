@@ -3,11 +3,16 @@
 MatchN is a turn-based card game where players pass and discard cards to form **N** matches in their hand. The game continues until a player reaches **N** matches or the deck is exhausted.
 
 ## 🃏 How to Play
-- The first player draws a card from the deck.
-- They choose which card(s) to pass to the next player.
-- The next player does the same until the last player, who discards into a pile.
-- The game continues until a player achieves **N matches**.
-- If the deck runs out, the discard pile is shuffled and reused.
+1. At the start, the player **chooses**:
+   - The **number of players**.
+   - The **number of cards needed for a match**.
+   - The **number of cards to discard per turn**.
+2. The first player **draws** a card from the deck.
+3. They **choose which card(s) to pass** to the next player.
+4. The next player repeats this until the last player, who **discards into a pile**.
+5. The game continues until a player achieves **N matches**.
+6. If the deck runs out, the **discard pile is shuffled and reused**.
+7. The first player to get **N matching cards** wins!
 
 ## 🔧 Technologies Used
 - **Java** for game logic
